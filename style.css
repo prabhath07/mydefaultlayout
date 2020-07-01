@@ -1,0 +1,93 @@
+.nav{
+background-color: #95a5a6;
+
+}
+.nav2{
+	display: flex;
+text-decoration-style: none;
+list-style: none;
+padding: 0px;
+}
+
+.zone{
+display: flex;
+margin:0;
+font-size: 2em;
+
+}
+@media only screen and (max-width: 600px)
+
+{
+	.nav{
+		font-size: 1em;
+		padding: 0;
+	}
+}
+.zone:hover{
+	cursor: pointer;
+	
+}
+.navi{
+	margin-left: auto;
+}
+a{
+	color: black;
+	padding: 20px;
+}
+a:hover{
+
+	transform: scale(1.02);
+
+}
+body{
+	margin: auto 0;
+}
+.cover{
+	
+	justify-content: center;
+	align-items: center;
+	height: 50vh;
+}
+
+.grid{
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: 1fr 1fr 1fr;
+	background: #1f4037;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #99f2c8, #1f4037);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #99f2c8, #1f4037); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	
+}
+img{
+	width: 50%;
+	
+	padding: 60px;
+}
+.zone:hover {
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+.im{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.foot{
+	background: #23074d;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #cc5333, #23074d);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #cc5333, #23074d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+display: flex;
+padding: 20px;
+justify-content: center;
+	align-items: center;}
+	.cov{
+		
+	width: 30rem;
+	}
